@@ -1,0 +1,24 @@
+{
+  "name": "deploy-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:dev": "node main.js deploy -n"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.4.0",
+    "compressing": "^1.6.2",
+    "inquirer": "^9.1.0",
+    "node-ssh": "^13.0.0",
+    "ora": "^6.1.2",
+    "shelljs": "^0.8.5"
+  }
+}
